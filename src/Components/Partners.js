@@ -3,7 +3,6 @@ import React from 'react';
 import { Col, Row, Image, Button } from 'antd';
 
 import sponsor1 from '../assets/logo2.png';
-import sponsor2 from '../assets/logo3.png';
 import sponsor3 from '../assets/logo4.png';
 import sponsor4 from '../assets/logo5.png';
 import sponsor5 from '../assets/logo6.png';
@@ -19,23 +18,20 @@ const Partners = () => {
             <div style={{width:"80%", marginLeft:"auto", marginRight:"auto"}}>
             <div >
                 <Row className="spon_mob" style={{ padding: "20px" }}>
-                    <Col xs={12} sm={12} md={5} className="pad-mob">
+                    <Col xs={12} sm={12} md={6} className="pad-mob">
                         <Image className="img-1" src={sponsor1} preview={false} />
                     </Col>
 
-                    <Col xs={12} sm={12} md={5} className="pad-mob">
-                        <Image className="img-1" src={sponsor2} preview={false} />
-                    </Col>
 
-                    <Col xs={12} sm={12} md={5} className="pad-mob">
+                    <Col xs={12} sm={12} md={6} className="pad-mob">
                         <Image className="img-1" src={sponsor3} preview={false} />
                     </Col>
 
-                    <Col xs={12} sm={12} md={5} className="pad-mob">
+                    <Col xs={12} sm={12} md={6} className="pad-mob">
                         <Image className="img-1" src={sponsor4} preview={false} />
                     </Col>
 
-                    <Col xs={12} sm={12} md={4} className="pad-mob">
+                    <Col xs={12} sm={12} md={6} className="pad-mob">
                         <Image className="img-1" src={sponsor5} preview={false} />
                     </Col>
 
@@ -66,7 +62,7 @@ const Partners = () => {
                         <div className="btnHolder" style={{display: "flex"}}>
                         <Button style={{background: "#68A7AD", border:"none", color:"white", margin: "0px 20px 0px 0px"}} size="large">Enter Presale</Button>
                         
-                        <Button size="large" style={{border:"1px solid white", background:"transparent", color:"white"}}> Whitepaper</Button>
+                        <Button size="large" style={{border:"1px solid white", background:"transparent", color:"white"}}> Find Out More</Button>
                         <Button size="large" style={{border:"1px solid black", background:"transparent", color:"white", margin: "0px 20px 0px 20px"}}> Audit</Button>
                    
                     </div>
