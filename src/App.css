@@ -70,6 +70,28 @@ button.ant-btn.ant-btn-default.ant-btn-lg:nth-child(1){
 
 }
 
+span.anticon.anticon-close{
+  font-size: 30px;
+}
+
+.btnHolder.ant-btn.ant-btn-default.ant-btn-lg{
+  margin-left: 20px;
+  width: 100%;
+}
+
+.ant-anchor-link-title {
+  color: white !important;
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ant-anchor-ink {
+  display: none;
+}
+
 .ant-btn-primary {
   color: #fff;
   border-color: white !important;
@@ -426,9 +448,13 @@ hero
 }
 
 .bgg p{
-  padding: 0px 0px 0px 30px;
+  padding: 0px 0px 0px 20px;
   font-size: 24px;
 
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header, .ant-collapse-content p{
+  font-size: 20px;
 }
 
 .aboutMain {
@@ -732,6 +758,11 @@ footer
 responsive
 ----------
 */
+.mob_footer{
+  display: none;
+}
+
+
 
 
 @media only screen and (max-width:800px){
@@ -747,6 +778,10 @@ margin-right: auto;
 width: 100% !important;
   }
 
+  .mob_web{
+    display: none !important;
+  }
+
   h3.homeSlide.rewrds{
     font-size: 20px;
   }
@@ -755,12 +790,17 @@ width: 100% !important;
     text-align: center;
   }
 
-  .tkon{
+  .tkon, .tkon p{
     text-align: left;
   }
+  
 
   .btnHolder{
     width: 100% !important;
+  }
+
+  .mob_footer{
+    display: block;
   }
 
 
@@ -781,7 +821,11 @@ width: 100% !important;
   }
 
   .myfoot{
-    display: grid !important;
+    /* display: grid !important; */
+  }
+
+  .tkon p{
+    text-align: left;
   }
 
   .myfoot.ant-col.ant-col-xs-24.ant-col-sm-24.ant-col-md-10{

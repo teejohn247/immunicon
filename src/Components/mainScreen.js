@@ -16,8 +16,8 @@ function mainScreen() {
                 <div className="content homeSlide">
 
 
-                    <h3 className="homeSlide rewrds">Immunicorn Finance <span style={{color: "#68A7AD"}}>Token</span></h3>
-                    <h5>A world with a <span style={{color: "#68A7AD"}}>Promise of Protection.</span></h5>
+                    {/* <h3 className="homeSlide rewrds">Immunicorn Finance <span style={{color: "#68A7AD"}}>Token</span></h3> */}
+                    <h5 style={{marginTop:"70px"}}>A world with a <span style={{color: "#68A7AD"}}>Promise of Protection.</span></h5>
                     <p>Welcome to Immunicorn Finance, the number one cryptocurrency that aims to provide a safe and secure digital environment where all of your digital assets are immune to failure.</p>
 
                     <Image src={illus}  style={{width:"40%"}} preview={false}/>

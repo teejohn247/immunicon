@@ -32,10 +32,10 @@ function AboutMain() {
 
 
                 <Col xs={24} sm={24} md={24} className="pad-mob" style={{ marginTop: "100px", textAlign: "center", }}>
-                    <p className="imu" style={{ color: "white", fontWeight: "bold", margin: "0px" }}>TOKENS</p>
+                    <p className="imu" style={{ color: "white", fontWeight: "bold", margin: "0px" }}>TOKENOMICS</p>
                     <h3 className="imu" style={{ color: "white", fontSize: "40px" }}>A world with a <span style={{ color: "#68A7AD" }}>Promise of Protection.</span></h3>
                     <p className="imu" style={{ color: "white", width: "60%", textAlign: "center", marginLeft: "auto", marginRight: "auto" }}>
-                        Welcome to Immunicorn Finance, the number one cryptocurrency that aims to provide a safe and secure digital environment where all of your digital assets are immune to failure.
+                    The $IMU token, which was very carefully crafted to serve as the major core of the Immunicorn ecosystem, will improve the functionality of the ecosystem and the operations that will be carried out by the users and investors of the platform.
                     </p>
 
                 </Col>
@@ -53,39 +53,45 @@ function AboutMain() {
 
             <Row style={{ padding: "100px" }}>
 
-                <Col xs={24} sm={24} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={24} sm={12} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>$IMU </h3>
-                        <p style={{ color: "white", textAlign: "left" }}>Test</p>
+                        <p style={{ color: "white", textAlign: "left" }}>TICKER</p>
                     </div>
                 </Col>
 
-                <Col xs={24} sm={24} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={24} sm={12} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>50 B </h3>
-                        <p style={{ color: "white", textAlign: "left" }}>Total supply</p>
+                        <p style={{ color: "white", textAlign: "left" }}>TOTAL SUPPLY</p>
                     </div>
                 </Col>
 
-                <Col xs={24} sm={24} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={24} sm={12} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>15 B </h3>
-                        <p style={{ color: "white", textAlign: "left" }}>Available For Presale</p>
+                        <p style={{ color: "white", textAlign: "left" }}>AVAILABLE FOR PRESALE</p>
                     </div>
                 </Col>
 
-                <Col xs={24} sm={24} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={24} sm={12} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>0.0050 </h3>
-                        <p style={{ color: "white", textAlign: "left" }}>Initial Price for 1 $IMU</p>
+                        <p style={{ color: "white", textAlign: "left" }}>INITIAL PRICE FOR 1 $IMU</p>
                     </div>
                 </Col>
 
-                <Col xs={24} sm={24} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={24} sm={12} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>20th Aug 2022 </h3>
-                        <p style={{ color: "white", textAlign: "left" }}>Presale
-                            Duration</p>
+                        <p style={{ color: "white", textAlign: "left" }}>PRESALE DURATION</p>
+                    </div>
+                </Col>
+
+                <Col xs={24} sm={12} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                    <div>
+                        <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>20th Oct 2022 </h3>
+                        <p style={{ color: "white", textAlign: "left" }}>LAUNCH DATE</p>
                     </div>
                 </Col>
 
@@ -194,7 +200,7 @@ function AboutMain() {
 
 
             <Row style={{ width: "60%", marginLeft: "auto", marginRight: "auto" }}>
-                <Col xs={24} sm={24} md={24} className="pad-mob" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={24} sm={24} md={24} className="pad-mob" style={{ marginTop: "100px", textAlign: "center",  marginBottom:"80px", fontSize:"24px"}}>
                     <h3 style={{ color: "white", fontSize: "40px" }}>Frequently Asked Questions</h3>
 
 
@@ -212,7 +218,14 @@ function AboutMain() {
                         <Panel header="How much is the supply of $IMU that will be dropped?" key="3" >
                             <div></div>
                         </Panel>
-                        <Panel header="Who governs the Immunicorn platform?" key="4" >
+
+                        <Panel header="How can I purchase $IMU tokens?" key="4" >
+                            <div></div>
+                        </Panel>
+
+                        
+                        
+                        <Panel header="Who governs the Immunicorn platform?" key="5" >
                             <div></div>
                         </Panel>
                     </Collapse>
