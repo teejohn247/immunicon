@@ -32,9 +32,9 @@ function AppHeader() {
         <div className="mobileHidden" style={{ zIndex: 99, color: "white" }}>
           <Anchor targetOffset="65">
             <Link href="/" title="Home" />
-            <Link href="/about" title="Whitepaper" />
-            <Link href="/" title="More" />
-            <Button style={{width: "150px",height: "60px", borderRadius: "4px"}} className="txt" title="OPEN APP">OPEN APP</Button>
+            <Link href="/" title="Whitepaper" />
+            <Link href="/about" title="More" />
+            <Button style={{width: "150px",height: "60px", borderRadius: "4px"}} className="txt" title="AUDIT">AUDIT</Button>
 
           </Anchor>
         
@@ -58,9 +58,9 @@ function AppHeader() {
 
             <Anchor targetOffset="65">
               <Link href="/" title="Home" /><span className="ant-drawer-header ant-drawer-header-close-only"></span>
-              <Link href="/about" title="Whitepaper" />
-              <Link href="/" title="More" />
-              <Button style={{width: "150px",height: "60px", borderRadius: "4px", margin: "4px 0 6px 16px"}} className="txt" title="OPEN APP">OPEN APP</Button>
+              <Link href="/" title="Whitepaper" />
+              <Link href="/about" title="More" />
+              <Button style={{width: "150px",height: "60px", borderRadius: "4px", margin: "4px 0 6px 16px"}} className="txt" title="AUDIT">AUDIT</Button>
 
             </Anchor>
           </Drawer>

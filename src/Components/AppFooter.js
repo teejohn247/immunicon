@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Col, Row, Image, Layout } from 'antd';
+import { Col, Row, Image, Layout, Button } from 'antd';
 
 import log from '../assets/logo.png';
 import discord from '../assets/discord.png';
@@ -25,9 +25,13 @@ function AppFooter() {
 
           <Col xs={24} sm={24} md={8}>
             <Image src={log} preview={false} />
-            <p className="footerp" style={{ textAlign: "left", width: "60%" }}>Welcome to Immunicorn Finance, the number one cryptocurrency that aims to provide a safe and secure digital environment.</p>
-            <p className="footerp" style={{ textAlign: "left", width: "60%" }}>@2022 <span style={{ color: "#68A7AD" }}>immunicornfinance.com</span>  All rights reserved.</p>
+            <br />
+            <Button style={{background: "#68A7AD", border:"none", color:"white", margin: "20px 0px 20px 0px"}} size="large">Find Out More</Button>
+
+            <p className="footerp" style={{ textAlign: "left", width: "80%" }}>@2022 <span style={{ color: "#68A7AD" }}>immunicornfinance.com</span><br />  All rights reserved.</p>
           </Col>
+
+          
 
 
           <Col xs={24} sm={12} md={4}>
@@ -87,9 +91,10 @@ function AppFooter() {
       <Row className="mob_foot">
         <div className="myfoot" style={{ width: "100%", marginLeft: "auto", marginRight: "auto", textAlign: "Left", display: "flex", justifyContent: "center" }}>
 
-          <Col xs={24} sm={24} md={8}>
-            <Image src={log} preview={false} />
-            <p className="footerp" style={{ textAlign: "left", width: "60%" }}>Welcome to Immunicorn Finance, the number one cryptocurrency that aims to provide a safe and secure digital environment.</p>
+          <Col xs={24} sm={24} md={8} style={{display:"grid", padding:"30px", marginLeft:"auto", marginRight:"auto"}}>
+            <Image src={log} preview={false} style={{width:"60% !important"}} />
+            <br />
+            <Button style={{background: "#68A7AD", border:"none", color:"white", margin: "20px 0px 20px 0px"}} size="large">Find Out More</Button>
           </Col>
 
 

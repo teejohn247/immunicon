@@ -24,9 +24,9 @@ function mainScreen() {
 
                     <Timer />
 
-                    <div className="btnHolder">
-                        <Button size="large">Whitepaper</Button>
-                        <Button size="large"> Audit</Button>
+                    <div className="btnHolder" style={{display: "flex", justifyContent:"center"}}>
+                        <Button style={{background: "#68A7AD", border:"none", color:"white", margin: "0px 20px 0px 0px"}} size="large">Enter Presale</Button>
+                        <Button size="large" style={{border:"1px solid white", background:"transparent", color:"white"}}> Whitepaper</Button>
                     </div>
                     
 
