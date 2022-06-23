@@ -116,7 +116,7 @@ button.ant-drawer-close{
     width: 100%;
     background: transparent;
     color: white;
-    left: -25px;
+    /* left: -25px; */
     /* left: 50vw; */
     background: black;
 }
@@ -471,6 +471,7 @@ hero
 
 .ant-anchor-wrapper{
   overflow-x: hidden;
+  margin-top: 20px;
 }
 
 .map{
