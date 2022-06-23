@@ -73,44 +73,44 @@ function AboutMain() {
 
             </Row>
 
-            <Row className="cnter">
+            <Row className="cnter" style={{justifyContent:"center"}}>
 
-                <Col xs={9} sm={10} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={10} sm={10} md={6} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>$IMU </h3>
                         <p style={{ color: "white", textAlign: "left" }}>TICKER</p>
                     </div>
                 </Col>
 
-                <Col xs={9} sm={10} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={10} sm={10} md={6} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>50 B </h3>
                         <p style={{ color: "white", textAlign: "left" }}>TOTAL SUPPLY</p>
                     </div>
                 </Col>
 
-                <Col xs={9} sm={10} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={10} sm={10} md={6} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>15 B </h3>
                         <p style={{ color: "white", textAlign: "left" }}>AVAILABLE FOR PRESALE</p>
                     </div>
                 </Col>
 
-                <Col xs={9} sm={10} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={10} sm={10} md={6} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>0.0050 </h3>
                         <p style={{ color: "white", textAlign: "left" }}>INITIAL PRICE FOR 1 $IMU</p>
                     </div>
                 </Col>
 
-                <Col xs={9} sm={10} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={10} sm={10} md={3} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>20th Aug 2022 </h3>
                         <p style={{ color: "white", textAlign: "left" }}>PRESALE DURATION</p>
                     </div>
                 </Col>
 
-                <Col xs={9} sm={10} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={10} sm={10} md={6} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>20th Oct 2022 </h3>
                         <p style={{ color: "white", textAlign: "left" }}>LAUNCH DATE</p>
@@ -123,7 +123,7 @@ function AboutMain() {
 
             <Row style={{ padding: "20px" }}>
 
-                <Col xs={24} sm={24} md={12} className="pad-mob" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={24} sm={24} md={12} className="pad-mob mob_no" style={{ marginTop: "100px", textAlign: "center", }}>
                     <Image src={RoadMap} preview={false} />
                 </Col>
 

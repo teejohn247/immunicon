@@ -121,6 +121,10 @@ button.ant-drawer-close{
     background: black;
 }
 
+.ant-timeline-item-tail{
+  height: 90vh;
+}
+
 ant-collapse > .ant-collapse-item > .ant-collapse-header {
   position: relative;
   display: flex;
@@ -755,7 +759,7 @@ footer
 }
 
 .cnter{
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 
 .footer .socials a:hover {
@@ -827,6 +831,10 @@ width: 100% !important;
     display: none !important;
   }
 
+  .mob_no{
+    display: none;
+  }
+
   h3.homeSlide.rewrds{
     font-size: 20px;
   }
@@ -846,6 +854,10 @@ width: 100% !important;
 
   .mob_footer{
     display: block;
+  }
+
+  div#hero{
+    height: 100vh !important;
   }
 
 
@@ -899,11 +911,24 @@ width: 100% !important;
 }
 
 
+@media only screen and (max-width: 380px) {
+  .ant-col.bgg.ant-col-xs-9.ant-col-sm-10.ant-col-md-3{
+    margin: 0px !important;
+  }
+
+  .cnter {
+    padding-left: 0px;
+}
+
+}
+
 @media only screen and (max-width: 991px) {
   .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
     transform: scale(1.14);
   }
 }
+
+
 
 @media only screen and (max-width: 767px) {
   .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {

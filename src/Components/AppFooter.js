@@ -98,7 +98,7 @@ function AppFooter() {
       </Row>
 
       <Row style={{width: "80%",marginLeft: "auto",marginRight: "auto", textAlign:"left"}}>
-        <Col xs={12} sm={12}>
+        <Col xs={12} sm={12} md={12}>
             <p className="tkon" style={{ color: "#68A7AD" }}>Quick Links</p>
             <p  >Get Support</p>
             <p>Staking</p>
@@ -109,7 +109,7 @@ function AppFooter() {
           </Col>
 
 
-          <Col xs={12} sm={12}>
+          <Col xs={12} sm={12} >
             <p className="tkon" style={{ color: "#68A7AD" }}>Resources</p>
 
             <p>Whitepaper</p>
@@ -136,7 +136,7 @@ function AppFooter() {
       </Row>
 
       <Row>
-      <Col xs={24} sm={24} md={8} style={{  width: "80% !important", marginTop:"20px" }}>
+      <Col xs={24} sm={24} md={24} style={{  width: "80% !important", marginTop:"20px" }}>
             <p className="footerp" >@2022 <span style={{ color: "#68A7AD" }}>immunicornfinance.com</span>  All rights reserved.</p>
           </Col>
       </Row>
