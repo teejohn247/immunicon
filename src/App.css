@@ -122,7 +122,7 @@ button.ant-drawer-close{
 }
 
 .ant-timeline-item-tail{
-  height: 90vh;
+  height: 100vh;
 }
 
 ant-collapse > .ant-collapse-item > .ant-collapse-header {
@@ -857,7 +857,7 @@ width: 100% !important;
   }
 
   div#hero{
-    height: 100vh !important;
+    /* height: 100vh !important; */
   }
 
 

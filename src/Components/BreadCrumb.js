@@ -6,7 +6,7 @@ import AppHeader from './header';
 function BreadCrumb() {
     return (
 
-        <div id="hero" className="heroBlock" style={{ height: "80vh" }}>
+        <div id="hero" className="heroBlock" style={{ height: "100vh" }}>
 
             <div className="container-fluid">
                 <AppHeader />
