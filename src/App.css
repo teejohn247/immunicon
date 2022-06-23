@@ -59,9 +59,12 @@ button.ant-btn.ant-btn-default.ant-btn-lg:nth-child(1){
 }
 
 .button.ant-drawer-close{
-  color: white;
+    color: white;
     width: 100%;
     text-align: end;
+    position: relative;
+    left: -30px !important;
+    margin-bottom: 20px;
 }
 
 .ant-drawer-header-title{
@@ -113,6 +116,7 @@ button.ant-drawer-close{
     width: 100%;
     background: transparent;
     color: white;
+    left: -25px;
     /* left: 50vw; */
     background: black;
 }
@@ -434,8 +438,8 @@ hero
   background: linear-gradient(105.87deg, rgba(255, 255, 255, 0.048) 3.04%, rgba(255, 255, 255, 0.024) 96.05%);
   backdrop-filter: blur(13.63px);
   border-radius: 18px;
-  height: 146px;
   margin-left: 30px;
+  padding: 10px;
 
 }
 
@@ -699,7 +703,7 @@ footer
 ------
 */
 .ant-layout-footer {
-  background: #111 !important;
+  background:black !important;
   color: #fff !important;
   padding: 60px 0 !important;
   text-align: center;
@@ -721,6 +725,17 @@ footer
   color: #fff;
 }
 
+
+.mob_show{
+  display: none;
+
+}
+
+.mob_hide{
+  display: block;
+
+}
+
 .footer .socials {
   list-style: none;
   display: flex;
@@ -736,6 +751,10 @@ footer
 
 .footer .socials a {
   color: #fff;
+}
+
+.cnter{
+  padding-left: 50px;
 }
 
 .footer .socials a:hover {
@@ -775,7 +794,32 @@ responsive
   .footerp, p.footerp{
 margin-left: auto;
 margin-right: auto;
+margin-bottom: 50px;
 width: 100% !important;
+  }
+  .cnter{
+    justify-content: center;
+  }
+
+  ul.ant-timeline.ant-timeline-label{
+    width: 80%;
+  }
+
+  .bgg p{
+    /* margin-left: 0px; */
+    font-size: 14px;
+  }
+
+  .mob_show{
+    display: block;
+  }
+
+  .mob_hide{
+    display: none;
+  }
+
+  p.imu{
+    width: 100% !important;
   }
 
   .mob_web{
@@ -816,8 +860,28 @@ width: 100% !important;
 
   }
 
+  .not_mob{
+    display: none;
+  }
+
+  h3{
+    font-size: 30px !important;
+  }
+
+.ant-image-img{
+    width: 100% !important;
+  }
+
+  .time-bg{
+    background: none;
+  }
+
   .spon_mob_1{
     flex-flow: column-reverse;
+  }
+
+  .for_timer1{
+    margin-top: 100px;
   }
 
   .myfoot{

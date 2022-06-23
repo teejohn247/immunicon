@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Col, Row, Image, Timeline, Collapse } from 'antd';
 
 import charts from '../assets/Charts.png';
+import charts_mob from '../assets/mobile_version.png';
+
 import RoadMap from '../assets/Roadmap.png';
 
 const { Panel } = Collapse;
@@ -42,53 +44,73 @@ function AboutMain() {
 
             </Row>
 
-            <Row className="map" style={{ padding: "20px" }}>
+            <Row className="map mob_hide" style={{ padding: "20px" }}>
 
-                <Col xs={24} sm={24} md={24} className="pad-mob" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={24} sm={24} md={24} className="pad-mob " style={{ marginTop: "100px", textAlign: "center", }}>
                     <Image src={charts} preview={false} />
 
                 </Col>
 
+                
+
             </Row>
 
-            <Row style={{ padding: "100px" }}>
 
-                <Col xs={24} sm={12} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+            <Row className="map mob_show" style={{ padding: "20px" }}>
+
+                <Col xs={24} sm={24} md={24} className="pad-mob" style={{ marginTop: "100px", textAlign: "center", }}>
+                    <Image src={charts_mob} preview={false} />
+
+                </Col>
+
+                <Col xs={24} sm={24} md={24} className="pad-mob" style={{ marginTop: "100px", textAlign: "center", }}>
+                  <h3 className="imu" style={{ color: "white", fontSize:"28px", fontWeight: "400", margin: "0px" }}>COMMUNITY FUND</h3>
+                  <h2 className="imu" style={{ color: "white", fontSize:"36px", fontWeight: "bolder", margin: "0px" }}>25%</h2>
+
+                </Col>
+
+
+
+            </Row>
+
+            <Row className="cnter">
+
+                <Col xs={9} sm={10} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>$IMU </h3>
                         <p style={{ color: "white", textAlign: "left" }}>TICKER</p>
                     </div>
                 </Col>
 
-                <Col xs={24} sm={12} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={9} sm={10} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>50 B </h3>
                         <p style={{ color: "white", textAlign: "left" }}>TOTAL SUPPLY</p>
                     </div>
                 </Col>
 
-                <Col xs={24} sm={12} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={9} sm={10} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>15 B </h3>
                         <p style={{ color: "white", textAlign: "left" }}>AVAILABLE FOR PRESALE</p>
                     </div>
                 </Col>
 
-                <Col xs={24} sm={12} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={9} sm={10} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>0.0050 </h3>
                         <p style={{ color: "white", textAlign: "left" }}>INITIAL PRICE FOR 1 $IMU</p>
                     </div>
                 </Col>
 
-                <Col xs={24} sm={12} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={9} sm={10} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>20th Aug 2022 </h3>
                         <p style={{ color: "white", textAlign: "left" }}>PRESALE DURATION</p>
                     </div>
                 </Col>
 
-                <Col xs={24} sm={12} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
+                <Col xs={9} sm={10} md={4} className="bgg" style={{ marginTop: "100px", textAlign: "center", }}>
                     <div>
                         <h3 style={{ color: "white", fontSize: "20px", textAlign: "left" }}>20th Oct 2022 </h3>
                         <p style={{ color: "white", textAlign: "left" }}>LAUNCH DATE</p>

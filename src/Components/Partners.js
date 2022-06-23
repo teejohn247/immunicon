@@ -59,11 +59,11 @@ const Partners = () => {
                         Holders of the token have access to several advantages, including being allowed voting and governance rights on the platform’s ecosystem.
                         </p>
 
-                        <div className="btnHolder" style={{display: "flex"}}>
+                        <div className="btnHolder" style={{display: "flex", marginBottom:"30px"}}>
                         <Button style={{background: "#68A7AD", border:"none", color:"white", margin: "0px 20px 0px 0px"}} size="large">Enter Presale</Button>
                         
                         <Button size="large" style={{border:"1px solid white", background:"transparent", color:"white"}}> Find Out More</Button>
-                        <Button size="large" style={{border:"1px solid black", background:"transparent", color:"white", margin: "0px 20px 0px 20px"}}> Audit</Button>
+                        <Button size="large" className="not_mob" style={{border:"1px solid black", background:"transparent", color:"white", margin: "0px 20px 0px 20px"}}> Audit</Button>
                    
                     </div>
                     </Col>

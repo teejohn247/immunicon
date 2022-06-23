@@ -85,7 +85,7 @@ const Timer = () => {
 
 	return (
 
-		<div style={{height:"100px"}}>
+		<div className="for_timer1" style={{height:"100px"}}>
 
 
 			<div className="homeSlide Timer for--bg">
