@@ -85,7 +85,7 @@ function AppFooter() {
 <div className="mob_footer">
 
       <Row className="mob_foot">
-        <div className="myfoot" style={{ width: "80%", marginLeft: "auto", marginRight: "auto", textAlign: "Left", display: "flex", justifyContent: "center" }}>
+        <div className="myfoot" style={{ width: "100%", marginLeft: "auto", marginRight: "auto", textAlign: "Left", display: "flex", justifyContent: "center" }}>
 
           <Col xs={24} sm={24} md={8}>
             <Image src={log} preview={false} />
