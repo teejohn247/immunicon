@@ -241,6 +241,31 @@ body {
   background: #fff !important;
 }
 
+.ant-select-selector, .ant-select.ant-select-single.ant-select-show-arrow{
+  background: #68A7AD !important;
+
+  padding: 10px;
+ 
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+  background: #68A7AD !important;
+  border:none !important;
+  color: white;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  border-radius: 5px; */
+
+}
+span.ant-select-selection-item{
+  position: relative;
+  top: 3px;
+}
+.ant-select{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  border-radius: 5px;
+  margin-right: 20px !important;
+}
+
 .mainLayout .ant-layout-header {
   background: #f8f8f8;
   padding: 0;
@@ -800,6 +825,15 @@ responsive
   .ant-timeline-item-tail{
     height: 70vh;
   }
+  .ant-select{
+   margin-left: 20px !important;
+  }
+
+  button.ant-btn.ant-btn-default.txt{
+    height: 50px !important;
+    width: 100px !important;
+  }
+  
   .footerp, p.footerp{
 margin-left: auto;
 margin-right: auto;
